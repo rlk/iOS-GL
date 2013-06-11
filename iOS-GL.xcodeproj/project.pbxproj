@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		583E71E9161C8DF20085B725 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583E71E8161C8DF20085B725 /* UIKit.framework */; };
+		583E71EB161C8DF20085B725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583E71EA161C8DF20085B725 /* Foundation.framework */; };
+		583E71ED161C8DF20085B725 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583E71EC161C8DF20085B725 /* CoreGraphics.framework */; };
+		583E71EF161C8DF20085B725 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583E71EE161C8DF20085B725 /* GLKit.framework */; };
+		583E71F1161C8DF20085B725 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583E71F0161C8DF20085B725 /* OpenGLES.framework */; };
+		583E71F7161C8DF20085B725 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 583E71F5161C8DF20085B725 /* InfoPlist.strings */; };
+		583E71F9161C8DF20085B725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 583E71F8161C8DF20085B725 /* main.m */; };
+		583E71FD161C8DF20085B725 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 583E71FC161C8DF20085B725 /* AppDelegate.m */; };
+		583E71FF161C8DF20085B725 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 583E71FE161C8DF20085B725 /* Default.png */; };
+		583E7201161C8DF20085B725 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 583E7200161C8DF20085B725 /* Default@2x.png */; };
+		583E7203161C8DF20085B725 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 583E7202161C8DF20085B725 /* Default-568h@2x.png */; };
+		583E7205161C8DF20085B725 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 583E7204161C8DF20085B725 /* Shader.fsh */; };
+		583E7207161C8DF20085B725 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 583E7206161C8DF20085B725 /* Shader.vsh */; };
+		583E720A161C8DF20085B725 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 583E7209161C8DF20085B725 /* ViewController.m */; };
+		583E720D161C8DF20085B725 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 583E720B161C8DF20085B725 /* ViewController_iPhone.xib */; };
+		583E7210161C8DF20085B725 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 583E720E161C8DF20085B725 /* ViewController_iPad.xib */; };
+		588EEEDF161DFCCD00C43348 /* Shader.m in Sources */ = {isa = PBXBuildFile; fileRef = 588EEEDE161DFCCD00C43348 /* Shader.m */; };
+		588EEEE9161E16EA00C43348 /* bunny.dat in Resources */ = {isa = PBXBuildFile; fileRef = 588EEEE8161E16EA00C43348 /* bunny.dat */; };
+		588EEEEC161E175900C43348 /* Mesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 588EEEEB161E175900C43348 /* Mesh.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		583E71E4161C8DF20085B725 /* iOS-GL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-GL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		583E71E8161C8DF20085B725 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		583E71EA161C8DF20085B725 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		583E71EC161C8DF20085B725 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		583E71EE161C8DF20085B725 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		583E71F0161C8DF20085B725 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		583E71F4161C8DF20085B725 /* iOS-GL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-GL-Info.plist"; sourceTree = "<group>"; };
+		583E71F6161C8DF20085B725 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		583E71F8161C8DF20085B725 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		583E71FA161C8DF20085B725 /* iOS-GL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-GL-Prefix.pch"; sourceTree = "<group>"; };
+		583E71FB161C8DF20085B725 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		583E71FC161C8DF20085B725 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		583E71FE161C8DF20085B725 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		583E7200161C8DF20085B725 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		583E7202161C8DF20085B725 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		583E7204161C8DF20085B725 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		583E7206161C8DF20085B725 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		583E7208161C8DF20085B725 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		583E7209161C8DF20085B725 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		583E720C161C8DF20085B725 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		583E720F161C8DF20085B725 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		588EEEDD161DFCCD00C43348 /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		588EEEDE161DFCCD00C43348 /* Shader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shader.m; sourceTree = "<group>"; };
+		588EEEE8161E16EA00C43348 /* bunny.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bunny.dat; sourceTree = "<group>"; };
+		588EEEEA161E175900C43348 /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mesh.h; sourceTree = "<group>"; };
+		588EEEEB161E175900C43348 /* Mesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mesh.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		583E71E1161C8DF20085B725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583E71E9161C8DF20085B725 /* UIKit.framework in Frameworks */,
+				583E71EB161C8DF20085B725 /* Foundation.framework in Frameworks */,
+				583E71ED161C8DF20085B725 /* CoreGraphics.framework in Frameworks */,
+				583E71EF161C8DF20085B725 /* GLKit.framework in Frameworks */,
+				583E71F1161C8DF20085B725 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		583E71D9161C8DF20085B725 = {
+			isa = PBXGroup;
+			children = (
+				583E71F2161C8DF20085B725 /* iOS-GL */,
+				583E71E7161C8DF20085B725 /* Frameworks */,
+				583E71E5161C8DF20085B725 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		583E71E5161C8DF20085B725 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				583E71E4161C8DF20085B725 /* iOS-GL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		583E71E7161C8DF20085B725 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				583E71E8161C8DF20085B725 /* UIKit.framework */,
+				583E71EA161C8DF20085B725 /* Foundation.framework */,
+				583E71EC161C8DF20085B725 /* CoreGraphics.framework */,
+				583E71EE161C8DF20085B725 /* GLKit.framework */,
+				583E71F0161C8DF20085B725 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		583E71F2161C8DF20085B725 /* iOS-GL */ = {
+			isa = PBXGroup;
+			children = (
+				583E71FB161C8DF20085B725 /* AppDelegate.h */,
+				583E71FC161C8DF20085B725 /* AppDelegate.m */,
+				583E7204161C8DF20085B725 /* Shader.fsh */,
+				583E7206161C8DF20085B725 /* Shader.vsh */,
+				588EEEDD161DFCCD00C43348 /* Shader.h */,
+				588EEEDE161DFCCD00C43348 /* Shader.m */,
+				588EEEEA161E175900C43348 /* Mesh.h */,
+				588EEEEB161E175900C43348 /* Mesh.m */,
+				583E7208161C8DF20085B725 /* ViewController.h */,
+				583E7209161C8DF20085B725 /* ViewController.m */,
+				583E720B161C8DF20085B725 /* ViewController_iPhone.xib */,
+				583E720E161C8DF20085B725 /* ViewController_iPad.xib */,
+				583E71F3161C8DF20085B725 /* Supporting Files */,
+			);
+			path = "iOS-GL";
+			sourceTree = "<group>";
+		};
+		583E71F3161C8DF20085B725 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				588EEEE8161E16EA00C43348 /* bunny.dat */,
+				583E71F4161C8DF20085B725 /* iOS-GL-Info.plist */,
+				583E71F5161C8DF20085B725 /* InfoPlist.strings */,
+				583E71F8161C8DF20085B725 /* main.m */,
+				583E71FA161C8DF20085B725 /* iOS-GL-Prefix.pch */,
+				583E71FE161C8DF20085B725 /* Default.png */,
+				583E7200161C8DF20085B725 /* Default@2x.png */,
+				583E7202161C8DF20085B725 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		583E71E3161C8DF20085B725 /* iOS-GL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 583E7213161C8DF20085B725 /* Build configuration list for PBXNativeTarget "iOS-GL" */;
+			buildPhases = (
+				583E71E0161C8DF20085B725 /* Sources */,
+				583E71E1161C8DF20085B725 /* Frameworks */,
+				583E71E2161C8DF20085B725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-GL";
+			productName = "iOS-GL";
+			productReference = 583E71E4161C8DF20085B725 /* iOS-GL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		583E71DB161C8DF20085B725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 583E71DE161C8DF20085B725 /* Build configuration list for PBXProject "iOS-GL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 583E71D9161C8DF20085B725;
+			productRefGroup = 583E71E5161C8DF20085B725 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				583E71E3161C8DF20085B725 /* iOS-GL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		583E71E2161C8DF20085B725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583E71F7161C8DF20085B725 /* InfoPlist.strings in Resources */,
+				583E71FF161C8DF20085B725 /* Default.png in Resources */,
+				583E7201161C8DF20085B725 /* Default@2x.png in Resources */,
+				583E7203161C8DF20085B725 /* Default-568h@2x.png in Resources */,
+				583E7205161C8DF20085B725 /* Shader.fsh in Resources */,
+				583E7207161C8DF20085B725 /* Shader.vsh in Resources */,
+				583E720D161C8DF20085B725 /* ViewController_iPhone.xib in Resources */,
+				583E7210161C8DF20085B725 /* ViewController_iPad.xib in Resources */,
+				588EEEE9161E16EA00C43348 /* bunny.dat in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		583E71E0161C8DF20085B725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583E71F9161C8DF20085B725 /* main.m in Sources */,
+				583E71FD161C8DF20085B725 /* AppDelegate.m in Sources */,
+				583E720A161C8DF20085B725 /* ViewController.m in Sources */,
+				588EEEDF161DFCCD00C43348 /* Shader.m in Sources */,
+				588EEEEC161E175900C43348 /* Mesh.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		583E71F5161C8DF20085B725 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				583E71F6161C8DF20085B725 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		583E720B161C8DF20085B725 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				583E720C161C8DF20085B725 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		583E720E161C8DF20085B725 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				583E720F161C8DF20085B725 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		583E7211161C8DF20085B725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		583E7212161C8DF20085B725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		583E7214161C8DF20085B725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-GL/iOS-GL-Prefix.pch";
+				INFOPLIST_FILE = "iOS-GL/iOS-GL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		583E7215161C8DF20085B725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-GL/iOS-GL-Prefix.pch";
+				INFOPLIST_FILE = "iOS-GL/iOS-GL-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		583E71DE161C8DF20085B725 /* Build configuration list for PBXProject "iOS-GL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				583E7211161C8DF20085B725 /* Debug */,
+				583E7212161C8DF20085B725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		583E7213161C8DF20085B725 /* Build configuration list for PBXNativeTarget "iOS-GL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				583E7214161C8DF20085B725 /* Debug */,
+				583E7215161C8DF20085B725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 583E71DB161C8DF20085B725 /* Project object */;
+}
